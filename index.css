@@ -1,31 +1,117 @@
-/* .carousel-indicators {
-    position: absolute;
-    right: 950px;
-    bottom: 50px;
-    left: 0;
-    z-index: 37;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding-left: 0;
-    margin-right: 15%;
-    margin-left: 15%;
-    list-style: none;
-} */
-/* 
-.carousel-control-next {
-    right: 50px; 
-    top: 455px;
+.bg {
+  position: absolute;
+  top: 900px;
+  left: -25%;
+  width: 50%;
+  height: 250px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.carousel-control-prev {
-    left: 1155px;
-    top: 455;
-} */
+.third-container {
+  text-align: center;
+}
+.third-sub {
+  justify-content: start;
+  text-align: start;
+}
+.third-container-image {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.cards-row {
+  justify-content: center;
+}
+.card-header {
+  background-color: white;
+  border-bottom: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.cards-pding {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 
-.scroll{
-    width: 100%;
-    overflow-x: hidden;
- padding-left: 30px;
-    padding-top: 100px;
+.cards-image-pding {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.last-first-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+}
+
+.footer-bg {
+  background-color: rgb(71, 69, 69);
+  color: white;
+}
+
+.footer-two-pding {
+  padding-top: 65px;
+}
+.icon-color {
+  background-color: white;
+  color: white;
+}
+.bottom-border {
+  border-bottom: 2px solid white;
+  width: 40px;
+}
+
+.footer-pding {
+  padding-top: 50px;
+}
+
+.header-shadow {
+  position: absolute;
+  justify-content: start;
+  float: left;
+  text-align: start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: -115px;
+  left: 0%;
+  opacity: 0.2;
+
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom-second-image {
+  position: absolute;
+
+  justify-content: end;
+  float: right;
+  text-align: end;
+  align-items: flex-end;
+  width: 95%;
+  margin-top: 70px;
+  left: 5%;
+
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+  .bottom-second-image {
+    position: absolute;
+
+    justify-content: end;
+    float: right;
+    text-align: end;
+    align-items: flex-end;
+    width: 95%;
+    margin-top: 300px;
+    left: 5%;
+
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
