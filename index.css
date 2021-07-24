@@ -1,4 +1,4 @@
-.carousel-indicators {
+/* .carousel-indicators {
     position: absolute;
     right: 950px;
     bottom: 50px;
@@ -12,8 +12,8 @@
     margin-right: 15%;
     margin-left: 15%;
     list-style: none;
-}
-
+} */
+/* 
 .carousel-control-next {
     right: 50px; 
     top: 455px;
@@ -21,4 +21,11 @@
 .carousel-control-prev {
     left: 1155px;
     top: 455;
+} */
+
+.scroll{
+    width: 100%;
+    overflow-x: hidden;
+ padding-left: 30px;
+    padding-top: 100px;
 }
