@@ -1,15 +1,112 @@
 .bg {
   position: absolute;
-  top: 900px;
-  left: -25%;
+  top: 890px;
+  left: -27%;
   width: 50%;
   height: 250px;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.third-container {
+.nav-center {
+  justify-content: center;
+  display: flex;
+}
+.nav-menu{
+  font-weight: 500;
+  font-size: 15px;
+}
+.carousel-caption {
+  position: absolute;
+  right: 50%;
+  bottom: 261px;
+  left: 19%;
+  z-index: 11;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: start;
+}
+.carousel-h1 {
+  font-size: 72px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 57%;
+  bottom: 46px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 474px;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1%;
+  right: 185px;
+  color: #fff;
   text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+.carousel-control-prev {
+  position: absolute;
+  top: 474px;
+  left: 64%;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 36%;
+  right: 345px;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+.card-images {
+  width: 80%;
+}
+.third-container {
+  text-align: center !important;
+  padding-left: 6%;
+  width: 80%;
+  height: 60%;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+  padding-left: 526px;
+}
+.footer-center {
+  text-align: center;
+  justify-content: center;
 }
 .third-sub {
   justify-content: start;
@@ -24,11 +121,20 @@
   justify-content: center;
 }
 .card-header {
+  background-color: rgb(233, 233, 248);
+  border-bottom: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.card-header-two {
   background-color: white;
   border-bottom: none;
   justify-content: center;
   text-align: center;
   align-items: center;
+  position: relative;
 }
 .cards-pding {
   padding-left: 20px;
@@ -52,7 +158,7 @@
 }
 
 .footer-two-pding {
-  padding-top: 65px;
+  padding-top: 95px;
 }
 .icon-color {
   background-color: white;
@@ -114,4 +220,10 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+.empty-container {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  background-color: rgb(233, 233, 248);
 }
